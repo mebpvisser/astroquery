@@ -163,7 +163,7 @@ changing the ``cache_location`` variable:
 
    >>> myAlma = Alma()
    >>> myAlma.cache_location = '/big/external/drive/'
-   >>> myAlma.download_files(link_list, cache=True)
+   >>> myAlma.download_files(link_list['URL'], cache=True)
 
 You can also do the downloading all in one step:
 
